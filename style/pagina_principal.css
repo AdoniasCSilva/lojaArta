@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/background.png);
+    overflow-x: hidden;
+    position: relative;
+}
+
+/*CONFIGURAÇÃO DE CABEÇALHO*/
+
+.navegador{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #93ae93;
+    background-color: white;
+    width:100%;
+}
+.links{
+    list-style: none;
+    display: flex;
+}
+.links li{
+    font-size: 20px;
+    margin-right: 30px;
+    color:#93ae93;
+}
+
+.links li:hover{
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.links_menu{
+    text-decoration: none;
+}
+
+/*FIM DA CONFIGURAÇÃO DE CABEÇALHO*/
+
+/*INICIO CARROSEL*/
+
+.container{
+    margin-top: 1.25rem;
+    padding: 20px;
+}
+
+/*FIM DO CARROSEL*/
+
+/*INÍCIO DA SEÇÃO DE FOTOS*/
+
+h1{
+    font-size: 1.5rem;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color:#93ae93;
+}
+
+#secao_fotos input{
+    
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    color: #93ae93;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.secao01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao01 img{
+   margin: 30px;
+   border: 2px solid white;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   
+}
+
+.secao02{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao02 img{
+    margin: 30px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+/*FIM DA SEÇÃO DE FOTOS*/
+
+/*ORGANIZAÇÃO DO ESTILO DE RODAPÉ*/
+
+
+.rodape{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #93ae93;
+    background-color: white;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.politicas li{
+    margin-bottom: 5px;
+}
+
+.formas_pagamento p{
+    margin-bottom: 0;
+}
+
+.redes_sociais li{
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.redes_sociais a:hover{
+    opacity: 0.7;
+}
+
